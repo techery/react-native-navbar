@@ -1,11 +1,5 @@
-import React from 'react-native';
-const {
-  Text,
-  TouchableOpacity,
-  Component,
-  View,
-  PropTypes,
-} = React;
+import {Component, PropTypes} from 'react';
+import {Text, TouchableOpacity, View} from 'react-native';
 import styles from './styles';
 
 export default class NavbarButton extends Component {
