@@ -1,11 +1,5 @@
-import {PropTypes} from 'react';
-import {
-  StatusBar,
-  Component,
-  Text,
-  View,
-  Platform
-} from 'react-native';
+import {PropTypes, Component} from 'react';
+import {StatusBar, Text, View, Platform} from 'react-native';
 import NavbarButton from './NavbarButton';
 import styles from './styles';
 
